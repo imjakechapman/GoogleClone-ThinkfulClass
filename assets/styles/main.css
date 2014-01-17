@@ -465,7 +465,7 @@ html, body {
 
 .inline-span { margin-top: 150px; display: inline-block;}
 
-.google-logo { width: 250px; }
+.google-logo { width: 250px; margin-bottom: 15px; }
 
 .main-content {
   width: 100%;
@@ -475,7 +475,7 @@ html, body {
   margin-top: -200px;
 }
 
-.search-form { display: block; width: 500px; margin: 0 auto; }
+.search-form { display: block; width: 550px; margin: 0 auto; }
 
 .search-input-wrapper {
   display: block;
@@ -488,6 +488,7 @@ input[type="text"] {
   display: block;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+  border-top: 1px solid #aaa;
   padding: 6px;
 }
 
@@ -506,7 +507,7 @@ input[type="text"]:focus {
   right: 5px;
   background: url('../images/microphone.png') transparent no-repeat center center;
   background-size: 100%;
-  opacity: .5;
+  opacity: .75;
 }
 .microphone-icn:hover {
   opacity: 1;
