@@ -1,4 +1,3 @@
 GoogleClone
-===========
 
-Thinkful
+Repo after tutoring session
